@@ -139,7 +139,7 @@ function procesarDatosAnimales() {
     try {
         const response = await fetch("animales.json")
         if (response.ok === false) {
-            console.log("No se encuentra el animal")
+            console.log("No se encuentra este animal")
             throw {
                 codigo: 404,
                 mensaje: "No existen animales"

@@ -182,22 +182,27 @@ btnRegistrar.addEventListener("click", () => {
         case "leon":
             const leon = new Leon(animalEncontrado.name, animalEncontrado.edad, animalEncontrado.img, comentarios.value, animalEncontrado.sonido)
             leon.pintarHTML(divAnimales)
+            leon.Rugir()
             break;
         case "lobo":
             const lobo = new Lobo(animalEncontrado.name, animalEncontrado.edad, animalEncontrado.img, comentarios.value, animalEncontrado.sonido)
             lobo.pintarHTML(divAnimales)
+            lobo.Aullar()
             break;
         case "oso":
             const oso = new Oso(animalEncontrado.name, animalEncontrado.edad, animalEncontrado.img, comentarios.value, animalEncontrado.sonido)
             oso.pintarHTML(divAnimales)
+            oso.Gruñir()
             break;
         case "serpiente":
             const serpiente = new Serpiente(animalEncontrado.name, animalEncontrado.edad, animalEncontrado.img, comentarios.value, animalEncontrado.sonido)
             serpiente.pintarHTML(divAnimales)
+            serpiente.Sisear()
             break;
         case "aguila":
             const aguila = new Aguila(animalEncontrado.name, animalEncontrado.edad, animalEncontrado.img, comentarios.value, animalEncontrado.sonido)
             aguila.pintarHTML(divAnimales)
+            aguila.Chillar()
             break;
 
     }
